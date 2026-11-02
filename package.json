@@ -1,0 +1,16 @@
+{
+  "name": "never-bored",
+  "version": "1.0.0",
+  "description": "Never Bored - AI tool for finding things to do on the Garden Route and in South Africa.",
+  "private": true,
+  "main": "dist/src/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/src/server.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.4.5"
+  }
+}
